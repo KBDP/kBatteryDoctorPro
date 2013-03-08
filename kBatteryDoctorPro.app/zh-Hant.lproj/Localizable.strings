@@ -1,0 +1,295 @@
+/* 
+  Localizable.strings
+  kBatteryDoctorPro
+
+  Created by bo lin on 12-12-4.
+  Copyright (c) 2012年 iJinShan. All rights reserved.
+*/
+
+//Button
+"Button_3G"="3G";
+"Button_4G"="4G";
+"Button_LTE"="LTE";
+"Button_Airplane"="飛航模式";
+"Button_AutoLock"="自動鎖定";
+"Button_Backlight"="亮度";
+"Button_Bluetooth"="Bluetooth";
+"Button_ClearBadge"="標記清除";
+"Button_Data"="數據";
+"Button_Flashlight"="手電筒";
+"Button_HomeButton"="主畫面";
+"Button_KillBackground"="清理加速";
+"Button_Location"="定位";
+"Button_Mute"="聲音";
+"Button_Reboot"="重啟";
+"Button_Respring"="註銷";
+"Button_Rotation"="旋轉";
+"Button_Shutdown"="關機";
+"Button_SleepButton"="鎖屏";
+"Button_Uicache"="圖標修復";
+"Button_VPN"="VPN";
+"Button_WiFi"="WLAN";
+
+//Home
+"home_view_title"="金山電池醫生";
+"home_view_title_tabbar"="省電模式";
+"home_view_mode_outdoor"="戶外模式";
+"home_view_mode_indoor"="室內模式";
+"home_view_mode_sleep"="睡眠模式";
+"home_view_hour"="小時";
+"home_view_minutes"="分鐘";
+"home_view_remained"="可用";
+"home_view_battery_status"="當前電量 %d%%   %@";
+"navation_feedback"="問題反饋";
+"navation_app_version"="關於軟件";
+"navation_bar_more"="其他";
+"navation_bar_control"="功能";
+"home_view_change_mode"="已使用%@";
+"home_view_change_airplane_on"="，飛航模式開啟，電話和讯息不能使用。";
+"home_view_change_airplane_off"="，飛航模式開啟，電話和讯息恢復使用。";
+"home_view_change_data_on"="，數據开启";
+"home_view_change_data_off"="，數據关闭";
+"home_view_change_wifi_on"="，WLAN开启。";
+"home_view_change_wifi_off"="，WLAN关闭。";
+"home_view_complete_no_need"="不需要充電";
+"home_view_complete_normal"="可進行普通充電";
+"home_view_complete_complete"="可進行完全充電";
+"home_view_mode_changed"="已更改";
+"home_quick_button_intelligence"="智能省電";
+"home_quick_button_clean"="手機加速";
+
+//Panel
+"panel_remain_time_minutes"="可用 %d 分鐘";
+"panel_remain_time_minutes_and_hour"="可用 %d 小時 %02d 分鐘";
+"panel_apply_button"="立即使用該模式";
+"panel_apply_noneed"="正在使用該模式";
+"panel_title"="模式設定";
+
+//Charging
+"charging_view_title"="電池充電";
+"charging_view_in_statge_1"="快速充電中";
+"charging_view_in_statge_2"="連續式充電中";
+"charging_view_in_statge_3"="涓流充電中";
+"charging_view_time_hour_and_minutes"="%d 小時 %02d 分鐘";
+"charging_view_time_minutes"=" %d 分鐘";
+"charging_view_time_to_charge"="預計需 %@ 充滿";
+"charging_view_charging_remain_time"="剩餘時間 %@";
+"charging_view_complete_no_need"="電池電量充足，目前不需要充電";
+"charging_view_complete_normal"="日常隨用隨充，可進行普通充電";
+"charging_view_complete_complete"="電池電量低，可進行完全循環充電";
+"charging_view_time_to_complete"="預計充電完成時間：";
+"charging_view_complete_and_unplug"="電池已充滿，請拔掉充電電源！";
+"charging_view_statge_1"="快速充電";
+"charging_view_statge_2"="連續式充電";
+"charging_view_statge_3"="涓流充電";
+
+"charging_view_state_1_description"="快速充電：能夠將電池迅速沖至80%電量，但仍需進行連續式充電才能充滿。";
+"charging_view_state_2_description"="連續式充電：在電池充滿過程中，充電電流逐步減小，但仍需進行涓流充電才能飽和。";
+"charging_view_state_3_description"="涓流充電：以微弱的電流充電，確保電池電量飽和，延長電池使用時間。";
+
+//history
+"history_view_title"="保養記錄";
+
+"Mon_"="週一";
+"Tue_"="週二";
+"Wed_"="週三";
+"Thu_"="週四";
+"Fri_"="週五";
+"Sat_"="週六";
+"Sun_"="週日";
+
+"cal_title_datetime_format"="yyyy年MM月";
+
+"history_tableview_header_datetime_format"="yyyy年MM月dd日 EEE";
+"history_good_charge_tip_msg"="電量低於20%完成三階段充電，每月一次讓待機時間更耐久。";
+"history_normal_charge_tip_msg"="電池日常使用隨用隨充，普通充電有助於延長電池壽命。";
+"history_bad_charge_tip_msg"="充電超過6小時損害電池壽命，充電完成請及時斷開電源。";
+
+"history_good_charge"="完全循環充電";
+"history_normal_charge"="普通充電";
+"history_bad_charge"="過度充電";
+"today_no_record_description"=" 今天沒有記錄哦！";
+
+//detail
+"detail_view_title"="系統信息";
+"detail_view_battery_title"="電池";
+"detail_view_system_title"="系統";
+
+"detail_view_device"="設備信息";
+"detail_view_battery"="電池信息";
+"detail_view_wifi"="無線網路";
+"detail_view_cell"="2G/3G網路";
+"detail_view_system"="系統信息";
+"detail_view_hardware"="硬件信息";
+
+"detial_view_memory_usage"="已用內存";
+
+"detail_view_cpu_usage"="已用CPU";
+
+"detail_view_disk"="儲存";
+"detail_view_disk_usage"="已用";
+"detail_view_disk_usage_detail"="已用 %4.1f%% %4.2fGB";
+"detail_view_disk_free"="可用";
+"detail_view_disk_free_detail"="可用 %4.1f%% %4.2fGB";
+
+"detail_view_last_days"="最近    天";
+"detail_view_last"="最近";
+"detail_view_health_mah"="健康度 (mAh) ";
+"detail_view_health"="健康度";
+"detail_view_temperature"= "溫度";
+"detail_view_cycle"= "循環次數";
+
+"curve_not_enough_data"="我們需要1-2天來統計健康度哦！";
+
+"device_info_model"="機型";
+"device_info_system_version"="系統版本";
+"device_info_name"="名稱";
+
+"device_info_serial"="序列號";
+"device_info_max_capacity"="當前容量";
+"device_info_current_capacity"="當前電量";
+"device_info_amperage"="電流";
+"device_info_voltage"="電壓";
+"device_info_bootVoltage"="啓動電壓";
+
+"device_info_wifi_mac_add"="MAC地址";
+"device_info_wifi_ip_add"="IP地址";
+"device_info_cell_carrier"="運營商";
+"device_info_cell_ip"="IP地址";
+"device_info_system_boottime"="上次啟動時間";
+"device_info_system_runtime"="啟動後運行時間";
+"device_info_system_runtime_format"="%d 天 %d 小時 %d 分鐘";
+"device_info_no_network"="不可用";
+"device_info_no_carrier"="無法獲取運營商";
+"device_info_jail_break_title"="是否越獄";
+"device_info_is_jail_break"="已越獄";
+"device_info_is_not_jail_break"="未越獄";
+
+"pull_to_show_more"="上拉查看詳情";
+"push_to_show_less"="下拉查看概要";
+"release_to_show_more"="鬆開查看詳情";
+"release_to_show_less"="鬆開查看概要";
+
+
+
+//setting
+
+"setting_view_title"="設定";
+
+"setting_view_panel"="快捷開關設定";
+"setting_view_panel_enabled"="狀態欄電池快捷開關";
+"setting_view_wee_enabled"="通知中心快捷開關";
+"setting_view_wee_setting"="通知中心顯示設定";
+"setting_view_panel_order"="調整開關位置";
+
+"setting_view_charge"="充電設定";
+"setting_view_launch_app"="充電自動啟動";
+"setting_view_complete_sound"="充電完成提示";
+"setting_view_night_slient"="夜間免打擾";
+
+"setting_view_disturb_description"="23:00-07:00 時段充電完成後不再響鈴提醒。";
+
+"setting_view_other"="其他設定";
+"setting_view_sound"="按鍵音效";
+"setting_view_clear_history"="清除保養記錄";
+"setting_view_eula"="用戶隱私聲明";
+
+"nc_view_battery_enabled"="顯示省電模式欄";
+"nc_view_multi_enabled"="顯示多任務欄";
+"nc_view_multiline"="開關顯示樣式";
+"nc_view_one_line"="單行";
+"nc_view_two_line"="雙行";
+
+"custom_button_show"="已顯示";
+"custom_button_hide"="未顯示";
+
+//intelligence
+"setting_view_intelligence"="智能省電";
+"setting_view_intelligence_setting"="智能省電設置";
+
+"intelligence_setting_segment_lock"="鎖屏省電";
+"intelligence_setting_segment_sleep"="睡眠省電";
+"intelligence_setting_segment_lowbattery"="低電量省電";
+
+"intelligence_setting_auto_background_setting"="多任務";
+"intelligence_setting_auto_background"="鎖屏智能清理多任務";
+"intelligence_setting_auto_background_delay"="延遲清理時間";
+"intelligence_setting_auto_background_footer"="鎖屏後智能關閉後台應用，不會影響應用推送通知。\r\n  ";
+
+"intelligence_setting_auto_3g_setting"="網絡";
+"intelligence_setting_auto_3g"="鎖屏自動切換2G";
+"intelligence_setting_auto_4g"="鎖屏自動切換3G";
+"intelligence_setting_auto_3g_delay"="延遲切換時間";
+"intelligence_setting_auto_3g_footer"="鎖屏後關閉3G以節省電量，解鎖後恢復3G。\r\n  ";
+"intelligence_setting_auto_4g_footer"="鎖屏後關閉4G/LTE以節省電量，解鎖後恢復4G/LTE。\r\n  ";
+
+"intelligence_setting_0_min"="立即";
+"intelligence_setting_1_min"="1分鐘";
+"intelligence_setting_5_min"="5分鐘";
+"intelligence_setting_10_min"="10分鐘";
+"intelligence_setting_30_min"="30分鐘";
+
+"intelligence_setting_low_battery_setting"="低電量";
+"intelligence_setting_low_battery"="低電量自動省電";
+"intelligence_setting_low_battery_percent"="電量百分比";
+"intelligence_setting_low_battery_footer"="當電量低於設定百分比時，自動關閉網絡，\r\n僅保留電話和短信功能。";
+
+"intelligence_setting_sleep_setting"="睡眠省電";
+"intelligence_setting_sleep"="自動切換睡眠模式";
+"intelligence_setting_sleep_duration"="睡眠起止時間";
+"intelligence_setting_sleep_out_mode"="睡眠結束後使用";
+
+"intelligence_setting_mode_0"="戶外模式";
+"intelligence_setting_mode_1"="室內模式";
+"intelligence_setting_mode_2"="恢復之前";
+
+"To"="至";
+
+//appdelegate
+"software_name"="金山電池醫生";
+"respiring_msg"="正在配置服務，註銷后完成。";
+"daemon_fail_alert"="檢測到服務未啟動，請手動重啟%@，以確保服務正常運行，或郵件反饋至app@ijinshan.com。";
+"daemon_fail_alert_cancel"="確定";
+"daemon_fail_alert_sendfeedback"="反饋";
+
+//
+"clean_history_title"="清除保養記錄";
+"clean_history_msg_body"="您確認要刪除所有充電保養記錄嗎？刪除之後將不可恢復。";
+"alertview_cancel"="取消";
+"alertview_ok"="確定";
+
+//feedback
+"feed_back_body_text"="電池醫生感謝那些幫助我們的朋友！";
+"feed_back_title"="金山電池醫生專業版 %@ - 問題和建議反饋";
+"feed_back_sending"="郵件發送中";
+"feed_back_canceled"="郵件已取消";
+"feed_back_saved"="郵件已保存";
+"feed_back_faild"="郵件發送失敗";
+
+
+//rank
+"rankview_view_title"="耗電排行";
+"usage_level"="%d 級耗電";
+"usage_min_less"="%d 秒";
+"usage_min"="%d 分鐘";
+"usage_hour"="%d 小時";
+"usage_day"="%d 天";
+"usage_second_ago"="%d 秒前";
+"usage_min_ago"="%d 分鐘前";
+"usage_hour_ago"="%d 小時前";
+"usage_day_ago"="%d 天前";
+"usage_mah"="%d mAh";
+"usage_left_title_apprank"="應用名稱";
+"rank_24_hours"="   24小時";
+"rank_all_records"="   總能耗";
+"rank_count_start"="    打開次數";
+"rank_time_starttime"="    啟動時間";
+"rank_close_app"="關閉程序";
+"rank_uninstall_app"="卸載程序";
+"usage_right_title_apprank"="耗電等級";
+
+"rank_uninstall_app_title"="卸載\"%@\"";
+"rank_uninstall_app_body"="若卸載\"%@\"，其所有資料也會被刪除。";
+"rank_apple_start_count"="%d 次";
+"rank_app_bg_task_flag"="後臺運行";
+"rand_nodate_description"="正在努力為您統計\r\n 過段時間再來查看吧。";

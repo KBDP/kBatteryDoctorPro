@@ -1,0 +1,304 @@
+/* 
+  Localizable.strings
+  kBatteryDoctorPro
+
+  Created by bo lin on 12-12-4.
+  Copyright (c) 2012年 iJinShan. All rights reserved.
+
+  Modified by Karen Tsai (angelXwind)
+  
+  Note from Karen: This is not final. I still need to do further testing to make some of these text strings actually fit in the UI.
+
+  The translations are also not of final quality (further revision needs to be done to some lines, using the Chinese translation)
+  
+  Translated to German by Hendrik Groß
+
+*/
+
+//Button
+"Button_3G"="3G";
+"Button_4G"="4G";
+"Button_LTE"="LTE";
+"Button_Airplane"="Flugzeug";
+"Button_AutoLock"="Auto-Lock";
+"Button_Backlight"="Helligkeit";
+"Button_Bluetooth"="Bluetooth";
+"Button_ClearBadge"="Badges entfernen";
+"Button_Data"="Daten";
+"Button_Flashlight"="LED";
+"Button_HomeButton"="Home";
+"Button_KillBackground"="Multitasking-Apps schließen";
+"Button_Location"="Ortungsdienst";
+"Button_Mute"="Töne";
+"Button_Reboot"="Neustart";
+"Button_Respring"="Respring";
+"Button_Rotation"="Rotation";
+"Button_Shutdown"="Ausschalten";
+"Button_SleepButton"="Bildschirmsperre";
+"Button_Uicache"="Uicache leeren";
+"Button_VPN"="VPN";
+"Button_WiFi"="WLAN";
+
+//Home
+"home_view_title"="BatteryDoctorPro";
+"home_view_title_tabbar"="Startseite";
+"home_view_mode_outdoor"="Draußen";
+"home_view_mode_indoor"="Drinnen";
+"home_view_mode_sleep"="Nacht";
+"home_view_hour"="h"; 
+"home_view_minutes"="min"; 
+"home_view_remained"="Batterielaufzeit";
+"home_view_battery_status"="Status: %d%%   %@";
+"navation_feedback"="Feedback";
+"navation_app_version"="Über";
+"navation_bar_more"="Mehr";
+"navation_bar_control"="Liste"; 
+"home_view_change_mode"="Aktiviert %@. "; 
+"home_view_change_airplane_on"="Flugzeugmodus ist an, Telefon und Nachrichten können nicht genutzt werden.";
+"home_view_change_airplane_off"="Flugzeugmodus ist aus, Telefon und Nachrichten können genutzt werden."; 
+"home_view_change_data_on"="Daten An. ";
+"home_view_change_data_off"="Daten Aus. ";
+"home_view_change_wifi_on"="WLAN An. ";
+"home_view_change_wifi_off"="WLAN Aus. ";
+"home_view_complete_no_need"="Kein Aufladen notwendig.";
+"home_view_complete_normal"="Teilweise Aufladen möglich."; 
+"home_view_complete_complete"="Komplett Aufladen möglich."; 
+"home_view_mode_changed"="geändert";
+"home_quick_button_intelligence"="Intelligent"; 
+"home_quick_button_clean"="Optimiert"; 
+
+//Panel
+"panel_remain_time_minutes"="Voraussichtliche Batterielaufzeit: %d Minuten"; 
+"panel_remain_time_minutes_and_hour"="Voraussichtliche Batterielaufzeit: %d Stunden und %02d Minuten";
+"panel_apply_button"="Einstellungen bestätigen";
+"panel_apply_noneed"="Aktuelle Einstellungen";
+"panel_title"="Voreinstellungen";
+
+//Charging
+"charging_view_title"="Status"; 
+"charging_view_in_statge_1"="Schnelles Laden";
+"charging_view_in_statge_2"="Fortgesetztes Laden"; 
+"charging_view_in_statge_3"="Trickle Laden";
+"charging_view_time_hour_and_minutes"="%d h %02d min"; 
+"charging_view_time_minutes"="%d min";
+"charging_view_time_to_charge"="%@ übrig";
+"charging_view_charging_remain_time"="%@ übrig";
+"charging_view_complete_no_need"="Batterie ist voll,\r\n kein Aufladen notwendig.";
+"charging_view_complete_normal"="Batterie ist teilweise geladen."; 
+"charging_view_complete_complete"="Batterie ist bald leer,\r\n komplett laden möglich.";
+"charging_view_time_to_complete"="Voraussichtlich fertig in:";
+"charging_view_complete_and_unplug"="Aufladen beendet, bitte vom Ladegerät trennen.";
+"charging_view_statge_1"="Schnell";
+"charging_view_statge_2"="Fortgesetzt";
+"charging_view_statge_3"="Trickle";
+
+"charging_view_state_1_description"="HSchnelles Laden: Lädt die Batterie bis 80% der Kapazität mit höchstmöglicher Geschwindigkeit. Das Laden sollte per Fortgesetztes Laden weitergeführt werden."; 
+"charging_view_state_2_description"="Fortgesetztes Laden: Lädt die Batterie mit niedrigerer Geschwindigkeit wenn sie fast voll ist um 100% zu erreichen. Das Laden sollte per Trickle Laden fortgesetzt werden."; 
+"charging_view_state_3_description"="Trickle Laden: Lädt die Batterie voll. Verlängert die Batterielebensdauer.";
+
+//history
+"history_view_title"="Verlauf";
+
+"Mon_"="Mo";
+"Tue_"="Di";
+"Wed_"="Mi";
+"Thu_"="Do";
+"Fri_"="Fr";
+"Sat_"="Sa";
+"Sun_"="So";
+
+"cal_title_datetime_format"="MM yyyy"; 
+
+"history_tableview_header_datetime_format"="EEE, dd-MM-yyyy"; 
+"history_good_charge_tip_msg"="Dies ist wenn du dein Gerät von 20% oder weniger aufgeladen hastund dabei alle drei Phasen durchgeführt hast. Mache dies einmal im Monat um die Batterielebensdauer zu erhöhen."; 
+"history_normal_charge_tip_msg"="Dies ist wenn du die Batterie normal lädst. Das kannst du wann immer es notwendig ist tun, da selbst teilweise Aufladen die Batterielebensdauer verlängert."; 
+"history_bad_charge_tip_msg"="Lade maximal 6h am Stück. Entferne das Ladegerät, wenn die Batterie voll ist.";
+
+"history_good_charge"="Kompletter Ladevorgang";
+"history_normal_charge"="Teilweiser Ladevorgang";
+"history_bad_charge"="Überladen";
+"today_no_record_description"="Dieser Tag hat keine Daten!";
+
+//detail
+"detail_view_title"="System";
+"detail_view_battery_title"="Batterie";
+"detail_view_system_title"="System";
+
+"detail_view_device"="Grundlegende Information";
+"detail_view_battery"="Batterie Information";
+"detail_view_wifi"="Wi-Fi Netzwerk";
+"detail_view_cell"="2G/3G Netzwerk";
+"detail_view_system"="System Information";
+"detail_view_hardware"="Hardware Spezifikationen";
+
+"detial_view_memory_usage"="RAM Benutzung";
+
+"detail_view_cpu_usage"="CPU Benutzung";
+
+"detail_view_disk"="Speicher";
+"detail_view_disk_usage"="Genutzt";
+"detail_view_disk_usage_detail"="%4.1f%% / %4.1fGB genutzt";
+"detail_view_disk_free"="Verfügbar";
+"detail_view_disk_free_detail"="%4.1f%% / %4.1fGB frei";
+
+"detail_view_last_days"="Letzte(r)    Tag(e)";  
+"detail_view_last"="Letzte";
+"detail_view_health_mah"="Gesundheit (mAh) "; 
+"detail_view_health"="Gesundheit"; 
+"detail_view_temperature"= "Temperatur";
+"detail_view_cycle"= "Zyklen"; 
+
+"curve_not_enough_data"="Nicht genügend Daten gesammelt.";
+
+"device_info_model"="Gerätemodell";
+"device_info_system_version"="Betriebssystem";
+"device_info_name"="Gerätename";
+
+"device_info_serial"="Seriennummer";
+"device_info_max_capacity"="Max Kapazität";
+"device_info_current_capacity"="Momentane Kapazität";
+"device_info_amperage"="Stromstärke";
+"device_info_voltage"="Spannung";
+"device_info_bootVoltage"="Hochfahr-Spannung";
+
+"device_info_wifi_mac_add"="MAC Addresse";
+"device_info_wifi_ip_add"="IP Addresse";
+"device_info_cell_carrier"="Netzbetreiber";
+"device_info_cell_ip"="IP Addresse";
+"device_info_system_boottime"="Letzter Neustart";
+"device_info_system_runtime"="Betriebszeit";
+"device_info_system_runtime_format"="%d T %d h %d min";
+"device_info_no_network"="Nicht verfügbar";
+"device_info_no_carrier"="Nicht verfügbar";
+"device_info_jail_break_title"="Jailbroken";
+"device_info_is_jail_break"="Ja";
+"device_info_is_not_jail_break"="Nein"; 
+
+"pull_to_show_more"="Hochziehen für Details";
+"push_to_show_less"="Runterziehen für weniger";
+"release_to_show_more"="Loslassen für Details";
+"release_to_show_less"="Loslassen für weniger";
+
+
+
+//setting
+
+"setting_view_title"="Einstellungen";
+
+"setting_view_panel"="Allgemeine Einstellungen";
+"setting_view_panel_enabled"="Einstellungen in Statusleiste";
+"setting_view_wee_enabled"="Widget in Nachrichtenzentrale";
+"setting_view_wee_setting"="Einstellungen für Nachrichtenzentrale";
+"setting_view_panel_order"="Anpassen";
+
+"setting_view_charge"="Lade-Einstellungen";
+"setting_view_launch_app"="Ladevorgang startet BatteryDoctorPro"; 
+"setting_view_complete_sound"="Alarm wenn fertig geladen "; 
+"setting_view_night_slient"="Nachts nicht stören";
+
+"setting_view_disturb_description"="Nicht stören von 23:00 bis 7:00,\r\n wenn Aufladen beendet ist.";
+
+"setting_view_other"="Andere Einstellungen";
+"setting_view_sound"="Tip-Sound"; 
+"setting_view_clear_history"="Ladeverlauf löschen";
+"setting_view_eula"="EULA";
+
+"nc_view_battery_enabled"="Einstellungen-Leiste anzeigen";
+"nc_view_multi_enabled"="Multitasking-Leiste anzeigen";
+"nc_view_multiline"="Anzeigemodus";
+"nc_view_one_line"="eine Linie";
+"nc_view_two_line"="zwei Linien";
+
+"custom_button_show"="Angezeigt";
+"custom_button_hide"="Nicht angezeigt";
+
+//intelligence
+"setting_view_intelligence"="Smartes Batterie sparen";
+"setting_view_intelligence_setting"="Intelligentes Sparen";
+
+"intelligence_setting_segment_lock"="Standby";
+"intelligence_setting_segment_sleep"="Sleep";
+"intelligence_setting_segment_lowbattery"="Wenig Batterie";
+
+"intelligence_setting_auto_background_setting"="Hintergrundprozesse";
+"intelligence_setting_auto_background"="Hintergrundprozesse auto-beenden";
+"intelligence_setting_auto_background_delay"="Verzögerung"; 
+"intelligence_setting_auto_background_footer"="Hintergrundprozesse beenden wenn Gerät gesperrt,\r\n Push-Benachrichtigungen werden nicht beeinflusst. ";
+
+"intelligence_setting_auto_3g_setting"="Netzwerk";
+"intelligence_setting_auto_3g"="Aktiviere 2G (EDGE) wenn gesperrt";
+"intelligence_setting_auto_4g"="RAktiviere 3G nach Sperren"; 
+"intelligence_setting_auto_3g_delay"="Verzögerung";
+"intelligence_setting_auto_3g_footer"="Nutze 2G (EDGE) um Batterie zu sparen wenn gesperrt,\r\n und aktiviere 3G wenn entsperrt. ";
+"intelligence_setting_auto_4g_footer"="Nutze 3G um Batterie zu sparen wenn gesperrt,\r\n und aktiviere 4G/LTE wenn entsperrt. ";
+
+"intelligence_setting_0_min"="Sofort"; 
+"intelligence_setting_1_min"="1 min";
+"intelligence_setting_5_min"="5 mins";
+"intelligence_setting_10_min"="10 mins";
+"intelligence_setting_30_min"="30 mins";
+
+"intelligence_setting_low_battery_setting"="Wenig Batterie";
+"intelligence_setting_low_battery"="Aktiviere Sparmodus";
+"intelligence_setting_low_battery_percent"="Batterieladezustand";
+"intelligence_setting_low_battery_footer"="Schaltet Datendienste aus,\r\n Telefon und Nachrichten sind nicht beeinflusst. ";
+
+"intelligence_setting_sleep_setting"="Schlaf";
+"intelligence_setting_sleep"="Schlaf Modus aktivieren";
+"intelligence_setting_sleep_duration"="Schlaf-Zeit";
+"intelligence_setting_sleep_out_mode"="Wenn wach, wechsle zu ";
+
+"intelligence_setting_mode_0"="Draußen";
+"intelligence_setting_mode_1"="Drinnen";
+"intelligence_setting_mode_2"="Letzter Zustand";
+
+"To"="to"; 
+
+//appdelegate
+"software_name"="BatteryDoctorPro"; 
+"respiring_msg"="Konfiguriere. Konfiguration abgeschlossen nach respring."; 
+"daemon_fail_alert"="Der Erkennungsservice ist nicht gestartet, bitte starte %@ manuell um sicher zu gehen, dass der Service normal funktioniert, oder e-mail an app@ijinshan.com."; //or this.
+"daemon_fail_alert_cancel"="OK";
+"daemon_fail_alert_sendfeedback"="Feedback";
+
+//
+"clean_history_title"="Ladeverlauf löschen";
+"clean_history_msg_body"="Möchtest du wirklich den Ladeverlauf löschen?";
+"alertview_cancel"="Abbrechen";
+"alertview_ok"="Ok";
+
+//feedback
+"feed_back_body_text"="Danke für eure Hilfe, meine Freunde!";
+"feed_back_title"="BatteryDoctorPro %@ - Fragen und Feedback";
+"feed_back_sending"="Email senden";
+"feed_back_canceled"="Abgebrochen";
+"feed_back_saved"="Email gespeichert";
+"feed_back_faild"="Fehlgeschlagen";
+
+
+//rank
+"rankview_view_title"="Benutzung"; 
+"usage_level"="Verwendet: %d"; 
+"usage_min_less"="%d sec"; 
+"usage_min"="%d min";
+"usage_hour"="%d h";
+"usage_day"="%d Tage";
+"usage_second_ago"="%d sec zuvor";
+"usage_min_ago"="%d min zuvor";
+"usage_hour_ago"="%d h zuvor";
+"usage_day_ago"="%d Tage zuvor";
+"usage_mah"="%d mAh";
+"usage_left_title_apprank"="App Name";
+"rank_24_hours"=" 24 h";
+"rank_all_records"=" Benutzung"; 
+"rank_count_start"=" Startvorgänge";
+"rank_time_starttime"=" Startzeit";
+"rank_close_app"="Schließen";
+"rank_uninstall_app"="Deinstallieren";
+"usage_right_title_apprank"="Verkleinern";
+
+"rank_uninstall_app_title"="Lösche \"%@\"";
+"rank_uninstall_app_body"="Löschen von \"%@\" wird auch alle Daten löschen.";
+"rank_apple_start_count"="%d mal";
+"rank_app_bg_task_flag"="Hintergrund";
+"rand_nodate_description"="Wir arbeiten\r\n sieh später nach.";

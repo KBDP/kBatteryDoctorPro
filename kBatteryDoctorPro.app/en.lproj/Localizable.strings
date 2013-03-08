@@ -1,0 +1,295 @@
+/* 
+  Localizable.strings
+  kBatteryDoctorPro
+
+  Created by bo lin on 12-12-4.
+  Copyright (c) 2012年 iJinShan. All rights reserved.
+*/
+
+//Button
+"Button_3G"="3G";
+"Button_4G"="4G";
+"Button_LTE"="LTE";
+"Button_Airplane"="Airplane";
+"Button_AutoLock"="Auto-Lock";
+"Button_Backlight"="Brightness";
+"Button_Bluetooth"="Bluetooth";
+"Button_ClearBadge"="BadgeClear";
+"Button_Data"="Data";
+"Button_Flashlight"="FlashLight";
+"Button_HomeButton"="Home";
+"Button_KillBackground"="TaskClear";
+"Button_Location"="Location";
+"Button_Mute"="Sounds";
+"Button_Reboot"="Reboot";
+"Button_Respring"="Respring";
+"Button_Rotation"="Rotation";
+"Button_Shutdown"="Power Off";
+"Button_SleepButton"="Lock Screen";
+"Button_Uicache"="Fix Icons";
+"Button_VPN"="VPN";
+"Button_WiFi"="WLAN";
+
+//Home
+"home_view_title"="BatteryDoctorPro";
+"home_view_title_tabbar"="Presets";
+"home_view_mode_outdoor"="Outdoor";
+"home_view_mode_indoor"="Indoor";
+"home_view_mode_sleep"="Alarm";
+"home_view_hour"="hr";
+"home_view_minutes"="min";
+"home_view_remained"="Battery Life";
+"home_view_battery_status"="Status %d%%   %@";
+"navation_feedback"="Feedback";
+"navation_app_version"="About";
+"navation_bar_more"="Other";
+"navation_bar_control"="List";
+"home_view_change_mode"="Enabled %@";
+"home_view_change_airplane_on"=" Mode, Airplane Mode is turned on, Phone and Messages can not be used.";
+"home_view_change_airplane_off"=" Mode, Airplane Mode is turned off, Phone and Messages can be used.";
+"home_view_change_data_on"=" Mode, Data On";
+"home_view_change_data_off"=" Mode, Data Off";
+"home_view_change_wifi_on"=", WLAN On.";
+"home_view_change_wifi_off"=", WLAN Off.";
+"home_view_complete_no_need"="No recharge necessary.";
+"home_view_complete_normal"="You can partially recharge now.";
+"home_view_complete_complete"="You can fully recharge now.";
+"home_view_mode_changed"="modified";
+"home_quick_button_intelligence"="Smart";
+"home_quick_button_clean"="Accelerate";
+
+//Panel
+"panel_remain_time_minutes"="Estimated battery life: %d minutes";
+"panel_remain_time_minutes_and_hour"="Estimated battery life: %d hours and %02d minutes";
+"panel_apply_button"="Apply Preset";
+"panel_apply_noneed"="Current Preset";
+"panel_title"="Presets";
+
+//Charging
+"charging_view_title"="Recharge";
+"charging_view_in_statge_1"="Hi-speed Charging";
+"charging_view_in_statge_2"="Continuation Charging";
+"charging_view_in_statge_3"="Trickle Charging";
+"charging_view_time_hour_and_minutes"="%d hr %02d min";
+"charging_view_time_minutes"="%d min";
+"charging_view_time_to_charge"="%@ Left";
+"charging_view_charging_remain_time"="%@ Left";
+"charging_view_complete_no_need"="Battery is full,\r\n no recharge necessary.";
+"charging_view_complete_normal"="Battery is medium,\r\n You can partially recharge your battery.";
+"charging_view_complete_complete"="Battery is low,\r\n You can fully recharge your battery.";
+"charging_view_time_to_complete"="Estimated Finish At:";
+"charging_view_complete_and_unplug"="Recharge is finished, please disconnect the charger.";
+"charging_view_statge_1"="High-speed";
+"charging_view_statge_2"="Continuation";
+"charging_view_statge_3"="Trickle";
+
+"charging_view_state_1_description"="High-speed Charging: Recharges the battery up to 80% of capacity at the fastest speed possible. You must continue charging through the Continuation Charging phase.";
+"charging_view_state_2_description"="Continuation Charging: Recharge battery at slower speed when battery is nearly full to ensure 100% full. You must continue recharging through the Trickle Charging phase.";
+"charging_view_state_3_description"="Trickle Charging:Recharge to full with tricklecurrent. Prolong the usage time of the battery.";
+
+//history
+"history_view_title"="Records";
+
+"Mon_"="Mon";
+"Tue_"="Tue";
+"Wed_"="Wed";
+"Thu_"="Thu";
+"Fri_"="Fri";
+"Sat_"="Sat";
+"Sun_"="Sun";
+
+"cal_title_datetime_format"="MM yyyy";
+
+"history_tableview_header_datetime_format"="EEE, MM-dd-yyyy";
+"history_good_charge_tip_msg"="This is when you have charged your device from at least 20% capacity, and gone through all three phases. Do this once a month to extend the life of your battery.";
+"history_normal_charge_tip_msg"="This is when you normally recharge the battery. You may do this whenever it is convinient, as Partial Cycles still prolong the battery's lifespan.";
+"history_bad_charge_tip_msg"="Please limit the recharging time to 6 hours per charge. Please unplug the power when the battery is full.";
+
+"history_good_charge"="Full Cycle";
+"history_normal_charge"="Partial Cycle";
+"history_bad_charge"="Overcharge";
+"today_no_record_description"="This day has not record!";
+
+//detail
+"detail_view_title"="System";
+"detail_view_battery_title"="Battery";
+"detail_view_system_title"="System";
+
+"detail_view_device"="Basic Information";
+"detail_view_battery"="Battery Information";
+"detail_view_wifi"="Wi-Fi Network";
+"detail_view_cell"="2G/3G Network";
+"detail_view_system"="System Information";
+"detail_view_hardware"="Hardware Specifications";
+
+"detial_view_memory_usage"="Memory Usage";
+
+"detail_view_cpu_usage"="CPU Usage";
+
+"detail_view_disk"="Storage";
+"detail_view_disk_usage"="Used";
+"detail_view_disk_usage_detail"="Usage %4.1f%% %4.1fGB";
+"detail_view_disk_free"="Available";
+"detail_view_disk_free_detail"="Available %4.1f%% %4.1fGB";
+
+"detail_view_last_days"="Last    Day (s)";
+"detail_view_last"="Last";
+"detail_view_health_mah"="Healthy (mAh) ";
+"detail_view_health"="Healthy";
+"detail_view_temperature"= "Temperature";
+"detail_view_cycle"= "Cycle";
+
+"curve_not_enough_data"="Not enough data has been collected.";
+
+"device_info_model"="Device Model";
+"device_info_system_version"="Operating System";
+"device_info_name"="Device Name";
+
+"device_info_serial"="Serial";
+"device_info_max_capacity"="Max Capacity";
+"device_info_current_capacity"="Current Capacity";
+"device_info_amperage"="Amperage";
+"device_info_voltage"="Voltage";
+"device_info_bootVoltage"="Boot Voltage";
+
+"device_info_wifi_mac_add"="MAC Address";
+"device_info_wifi_ip_add"="IP Address";
+"device_info_cell_carrier"="Carrier";
+"device_info_cell_ip"="IP Address";
+"device_info_system_boottime"="Date of last reboot";
+"device_info_system_runtime"="Uptime";
+"device_info_system_runtime_format"="%d D %d H %d M";
+"device_info_no_network"="Unavailable";
+"device_info_no_carrier"="Unavailable";
+"device_info_jail_break_title"="Jailbroken";
+"device_info_is_jail_break"="Yes";
+"device_info_is_not_jail_break"="No";
+
+"pull_to_show_more"="Pull up to view the details";
+"push_to_show_less"="Pull down to view the outline";
+"release_to_show_more"="Release to view the details";
+"release_to_show_less"="Release to view the outline";
+
+
+
+//setting
+
+"setting_view_title"="Settings";
+
+"setting_view_panel"="Toggle Settings";
+"setting_view_panel_enabled"="Toggles of Status Bar";
+"setting_view_wee_enabled"="Toggles of NC";
+"setting_view_wee_setting"="Display settings of NC";
+"setting_view_panel_order"="Customize";
+
+"setting_view_charge"="Charging Settings";
+"setting_view_launch_app"="Run BatteryDoctor Pro when plugged in ";
+"setting_view_complete_sound"="Recharge finish alert ";
+"setting_view_night_slient"="Do not disturb at night";
+
+"setting_view_disturb_description"="Do not disturb from 23:00 to 7:00,\r\n when recharge is complete.";
+
+"setting_view_other"="Other Settings";
+"setting_view_sound"="Tap sound";
+"setting_view_clear_history"="Delete charging history";
+"setting_view_eula"="Privacy Statement";
+
+"nc_view_battery_enabled"="Display Preset Changer";
+"nc_view_multi_enabled"="Display Multitasking Bar";
+"nc_view_multiline"="Display Style";
+"nc_view_one_line"="Single-Line";
+"nc_view_two_line"="Double-Line";
+
+"custom_button_show"="Toggles shown";
+"custom_button_hide"="Toggles not shown";
+
+//intelligence
+"setting_view_intelligence"="Smart saving";
+"setting_view_intelligence_setting"="Smart saving settings";
+
+"intelligence_setting_segment_lock"="Standby";
+"intelligence_setting_segment_sleep"="Sleep";
+"intelligence_setting_segment_lowbattery"="Low Power";
+
+"intelligence_setting_auto_background_setting"="Background Processes";
+"intelligence_setting_auto_background"="Auto-kill Background Processes";
+"intelligence_setting_auto_background_delay"="Delay";
+"intelligence_setting_auto_background_footer"="Kill background apps after devices is locked,\r\n Push Notifications are not affected. ";
+
+"intelligence_setting_auto_3g_setting"="Network";
+"intelligence_setting_auto_3g"="Enable 2G (EDGE) when locked";
+"intelligence_setting_auto_4g"="Enable 3G after locked";
+"intelligence_setting_auto_3g_delay"="Delay";
+"intelligence_setting_auto_3g_footer"="Use 2G (EDGE) to save power when locked,\r\n and enable 3G when unlocked. ";
+"intelligence_setting_auto_4g_footer"="Use 3G to save power when locked,\r\n and enable 4G/LTE when unlocked. ";
+
+"intelligence_setting_0_min"="Immediately";
+"intelligence_setting_1_min"="1 min";
+"intelligence_setting_5_min"="5 mins";
+"intelligence_setting_10_min"="10 mins";
+"intelligence_setting_30_min"="30 mins";
+
+"intelligence_setting_low_battery_setting"="Low Power";
+"intelligence_setting_low_battery"="Enable Low Power saving";
+"intelligence_setting_low_battery_percent"="Battery Level";
+"intelligence_setting_low_battery_footer"="Turns off the Data network when the battery is low,\r\n Phone and SMS are not affected. ";
+
+"intelligence_setting_sleep_setting"="Sleep";
+"intelligence_setting_sleep"="Enable Sleep Mode";
+"intelligence_setting_sleep_duration"="Sleep time";
+"intelligence_setting_sleep_out_mode"="When awake, change preset to";
+
+"intelligence_setting_mode_0"="Outdoor";
+"intelligence_setting_mode_1"="Indoor";
+"intelligence_setting_mode_2"="Last State";
+
+"To"="To";
+
+//appdelegate
+"software_name"="BatteryDoctorPro";
+"respiring_msg"="Configuring the environment. Configuration will finish after a respring.";
+"daemon_fail_alert"="The detection service is not started, please manually restart your %@ to ensure the normal operation of the service, or e-mail app@ijinshan.com.";
+"daemon_fail_alert_cancel"="OK";
+"daemon_fail_alert_sendfeedback"="Feedback";
+
+//
+"clean_history_title"="Delete charging history";
+"clean_history_msg_body"="Do you really want to delete your charging history?";
+"alertview_cancel"="Cancel";
+"alertview_ok"="Ok";
+
+//feedback
+"feed_back_body_text"="Thanks for your help, my friends!";
+"feed_back_title"="BatteryDoctorPro %@ - Questions and Feedback";
+"feed_back_sending"="Sending email";
+"feed_back_canceled"="Canceled";
+"feed_back_saved"="Email saved";
+"feed_back_faild"="Failed";
+
+
+//rank
+"rankview_view_title"="Usage";
+"usage_level"="Impact: %d";
+"usage_min_less"="%d sec";
+"usage_min"="%d min";
+"usage_hour"="%d hr";
+"usage_day"="%d day";
+"usage_second_ago"="%d sec ago";
+"usage_min_ago"="%d min ago";
+"usage_hour_ago"="%d hr ago";
+"usage_day_ago"="%d day ago";
+"usage_mah"="%d mAh";
+"usage_left_title_apprank"="App Name";
+"rank_24_hours"="   24 Hours";
+"rank_all_records"="     Usage";
+"rank_count_start"=" Launch Count";
+"rank_time_starttime"="  Launch Time";
+"rank_close_app"="Close";
+"rank_uninstall_app"="Uninstall";
+"usage_right_title_apprank"="Impact";
+
+"rank_uninstall_app_title"="Delete \"%@\"";
+"rank_uninstall_app_body"="Deleting \"%@\" will also delete all of its data.";
+"rank_apple_start_count"="%d times";
+"rank_app_bg_task_flag"="background";
+"rand_nodate_description"="We are working\r\n You can check it later.";
